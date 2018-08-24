@@ -1,0 +1,2641 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jogen Blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="子曰：知者不惑，仁者不忧，勇者无惧">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jogen Blog">
+<meta property="og:url" content="http://bambooj.github.io/index.html">
+<meta property="og:site_name" content="Jogen Blog">
+<meta property="og:description" content="子曰：知者不惑，仁者不忧，勇者无惧">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jogen Blog">
+<meta name="twitter:description" content="子曰：知者不惑，仁者不忧，勇者无惧">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://bambooj.github.io/"/>
+
+
+
+
+
+  <title>Jogen Blog</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jogen Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">不积跬步，无以至千里；不积小流，无以成江海</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2018/08/24/weekly-20180824/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/24/weekly-20180824/" itemprop="url">每周分享-20180824</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-24T10:27:55+08:00">
+                2018-08-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/24/weekly-20180824/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/08/24/weekly-20180824/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/08/24/weekly-20180824/" class="leancloud_visitors" data-flag-title="每周分享-20180824">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="1-IDEA插件Statistic"><a href="#1-IDEA插件Statistic" class="headerlink" title="1. IDEA插件Statistic"></a>1. IDEA插件Statistic</h4><p> Intellij IDEA 代码统计插件 Statistic 可以快速有效地查看项目代码行数、文件数量，大小等；</p>
+<h4 id="2-Maven命令mvn-dependency-get"><a href="#2-Maven命令mvn-dependency-get" class="headerlink" title="2. Maven命令mvn dependency:get"></a>2. Maven命令mvn dependency:get</h4><p>Maven命令行下载以来Jar包命令，如 mvn dependency:get -Dverbose -Dincludes=org.hibernate:hibernate-validator。该命令可以在IDEA执行卡顿的情况下，或者需要下载的依赖包久久都没有反应。可以使用此种方法下载具体的包。其他命令如dependency:tree可以查看具体包的多个依赖，从而排除冲突的jar包。</p>
+<h4 id="3-wc-word-count-命令"><a href="#3-wc-word-count-命令" class="headerlink" title="3. wc(word count) 命令"></a>3. wc(word count) 命令</h4><p> Linux的wc(word count)命令可以有效统计文本文件的大小，行数等；参考：<a href="https://alvinalexander.com/unix/edu/examples/wc.shtml" target="_blank" rel="noopener">https://alvinalexander.com/unix/edu/examples/wc.shtml</a></p>
+<h4 id="4-awk文本处理工具"><a href="#4-awk文本处理工具" class="headerlink" title="4. awk文本处理工具"></a>4. awk文本处理工具</h4><p> Linux的awk是一个处理文本的强大工具；可以对文本文件执行各种操作。</p>
+<h4 id="5-Http-客户端工具：OkHttp"><a href="#5-Http-客户端工具：OkHttp" class="headerlink" title="5. Http 客户端工具：OkHttp"></a>5. Http 客户端工具：OkHttp</h4><p> OkHttp是一个有效的Http客户端，支持多个请求公用一个主机的socket，连接池减少请求时延，透明的gzip压缩了下载的大小，响应缓存完全避免网络重复请求等特点。github上的star达到28k，具体参考<a href="http://square.github.io/okhttp/；" target="_blank" rel="noopener">http://square.github.io/okhttp/；</a></p>
+<h4 id="6-HanLP-中文自然语言处理库"><a href="#6-HanLP-中文自然语言处理库" class="headerlink" title="6. HanLP 中文自然语言处理库"></a>6. HanLP 中文自然语言处理库</h4><p>HanLP是一个面向生产环境的自然语言处理工具包，能有效地对中文进行各种处理，包括句法分析、多种词法分析、中文分词、词性标注，命名实体识别、关键词提取，新词发现，短语提取，自动摘要，拼音简繁等。还支持自定义模型训练等。目前在github上有8k多的star，该项目由大快搜索主导并完全开源。参考 <a href="https://github.com/hankcs/HanLP。" target="_blank" rel="noopener">https://github.com/hankcs/HanLP。</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2018/08/21/es-mapping-analysis/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/21/es-mapping-analysis/" itemprop="url">使用Elasticsearch对文章进行分词统计</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-21T18:22:40+08:00">
+                2018-08-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/21/es-mapping-analysis/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/08/21/es-mapping-analysis/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/08/21/es-mapping-analysis/" class="leancloud_visitors" data-flag-title="使用Elasticsearch对文章进行分词统计">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>需求：通过公司名称，查询公司的统一社会信用代码(企查查)；使用统一社会信用代码，调用风报(收费)接口，找到公司的裁判文书信息；返回信息格式如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;_id&quot; : &quot;0533f2d0-6fc4-4f79-a5b6-bc6d33a2c3f0&quot;,</span><br><span class="line">    &quot;法院&quot; : &quot;旌德县人民法院&quot;,</span><br><span class="line">    &quot;案号&quot; : &quot;（2015）旌民二初字第00098号&quot;,</span><br><span class="line">    &quot;案由&quot; : &quot;承揽合同纠纷&quot;,</span><br><span class="line">    &quot;段落&quot; : [ </span><br><span class="line">        &#123;</span><br><span class="line">            &quot;标签&quot; : &quot;头部&quot;,</span><br><span class="line">            &quot;内容&quot; : &quot;安徽省旌德县人民法院&quot;</span><br><span class="line">        &#125;, </span><br><span class="line">        &#123;</span><br><span class="line">            &quot;标签&quot; : &quot;庭审程序说明&quot;,</span><br><span class="line">            &quot;内容&quot; : &quot;被告贝利公司经本院传票传唤无正当理由未到庭参加诉讼。&quot;</span><br><span class="line">        &#125;, </span><br><span class="line">        &#123;</span><br><span class="line">            &quot;标签&quot; : &quot;庭审程序说明&quot;,</span><br><span class="line">            &quot;内容&quot; : &quot;本案现已审理终结。&quot;</span><br><span class="line">        &#125;, </span><br><span class="line">        &#123;</span><br><span class="line">            &quot;标签&quot; : &quot;庭审过程其他&quot;,</span><br><span class="line">            &quot;内容&quot; : &quot;原告为证明其诉讼主张，向本院递交的证据，被告樊建儿的质证意见及本院的认证意见如下：&quot;</span><br><span class="line">        &#125;, </span><br><span class="line">        &#123;</span><br><span class="line">            &quot;标签&quot; : &quot;庭审过程其他&quot;,</span><br><span class="line">            &quot;内容&quot; : &quot;2、《粉刷分项工程承包协议书》1份，证明两原告与被告贝利公司项目部签订协议，由原告分包粉刷工程，并对工程概况、范围、质量及保修、承包方式造价及付款进行了约定，明确了双方的权利义务。&quot;</span><br><span class="line">        &#125;, </span><br><span class="line">        &#123;</span><br><span class="line">            &quot;标签&quot; : &quot;附件&quot;,</span><br><span class="line">            &quot;内容&quot; : &quot;第一百四十四条被告经传票传唤，无正当理由拒不到庭的，或者未法庭许可中途退庭的，可以缺席判决。&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    ],</span><br><span class="line">    &quot;当事人&quot; : [ </span><br><span class="line">        &#123;</span><br><span class="line">            &quot;其他角色&quot; : [],</span><br><span class="line">            &quot;名字&quot; : &quot;建儿&quot;,</span><br><span class="line">            &quot;判决结果&quot; : &quot;败诉&quot;,</span><br><span class="line">            &quot;角色&quot; : [ </span><br><span class="line">                &quot;被告&quot;</span><br><span class="line">            ],</span><br><span class="line">            &quot;类型&quot; : &quot;人名&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    ],</span><br><span class="line">    &quot;文书类型&quot; : &quot;判决书&quot;,</span><br><span class="line">    &quot;versions&quot; : 1,</span><br><span class="line">    &quot;发布时间&quot; : &quot;2016-03-24&quot;,</span><br><span class="line">    &quot;判决时间&quot; : &quot;2016-01-04&quot;,</span><br><span class="line">    &quot;统一社会信用代码&quot; : &quot;91330110143843494L&quot;,</span><br><span class="line">    &quot;标题&quot; : &quot;AAA与贝利建设集团有限公司合同纠纷一审民事判决书&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>需要对“段落.内容”进行分析。</p>
+<h3 id="一、-公司对于的社会统一信用代码"><a href="#一、-公司对于的社会统一信用代码" class="headerlink" title="一、 公司对于的社会统一信用代码"></a>一、 公司对于的社会统一信用代码</h3><p>公司名称                    统一社会信用代码<br>中建二局第一建筑工程有限公司：91110000104341301L<br>浙江贝利                   ：91330110143843494L<br>河北太行建筑安装工程有限公司：91130606700751737C</p>
+<h3 id="二、-给“段落-标签”字段建立映射，使用中文ik-analyzer分词"><a href="#二、-给“段落-标签”字段建立映射，使用中文ik-analyzer分词" class="headerlink" title="二、 给“段落.标签”字段建立映射，使用中文ik_analyzer分词"></a>二、 给“段落.标签”字段建立映射，使用中文ik_analyzer分词</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">curl -X PUT &quot;localhost:9200/abs_enterprise_info&quot; -d&apos;</span><br><span class="line">&#123;</span><br><span class="line">   &quot;mappings&quot;: &#123;</span><br><span class="line">    &quot;cpws&quot;:&#123;</span><br><span class="line">       &quot;properties&quot;:&#123;</span><br><span class="line">            &quot;段落&quot;: &#123;</span><br><span class="line">                &quot;type&quot;: &quot;object&quot;,</span><br><span class="line">                &quot;properties&quot;:&#123;</span><br><span class="line">                    &quot;内容&quot;: &#123;</span><br><span class="line">                       &quot;analyzer&quot;: &quot;ik_smart&quot;,</span><br><span class="line">                        &quot;type&quot;: &quot;text&quot;,</span><br><span class="line">                        &quot;fielddata&quot;:&quot;true&quot;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;&apos;</span><br></pre></td></tr></table></figure>
+<p>建立完映射，可以对其进行分析，测试如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">curl -X POST &quot;localhost:9200/abs_enterprise_info/_analysis?pretty&quot; -d&apos;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;field&quot;: &quot;段落.内容&quot;,</span><br><span class="line">    &quot;tags&quot;: &quot;上诉人深圳市明之辉建设工程有限公司（以下简称“明之辉公司”）因与被上诉人杨光权承揽合同纠纷一案，明之辉公司不服贵州省余庆县人民法院（2017）黔0329民初1802号民事判决，向本院提起上诉，本院于2018年1月5日立案受理后，依法组成合议庭审理了本案，本案现已审理终结。&quot;</span><br><span class="line">&#125;&apos;</span><br></pre></td></tr></table></figure></p>
+<h3 id="三、-通过“统一社会信用代码”，查询符合的记录数（如有100条数据），再对其进行词频统计"><a href="#三、-通过“统一社会信用代码”，查询符合的记录数（如有100条数据），再对其进行词频统计" class="headerlink" title="三、 通过“统一社会信用代码”，查询符合的记录数（如有100条数据），再对其进行词频统计"></a>三、 通过“统一社会信用代码”，查询符合的记录数（如有100条数据），再对其进行词频统计</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">curl -X POST &quot;localhost:9200/abs_enterprise_info/_search?pretty&quot; -o 91130606700751737C.txt -d&apos;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;query&quot;: &#123;</span><br><span class="line">        &quot;match&quot;: &#123;</span><br><span class="line">            &quot;统一社会信用代码&quot;: &quot;91130606700751737C&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    &quot;size&quot;: 0,</span><br><span class="line">    &quot;aggs&quot;: &#123;</span><br><span class="line">        &quot;messages&quot;: &#123;</span><br><span class="line">            &quot;terms&quot;: &#123;</span><br><span class="line">                &quot;size&quot;: 10,</span><br><span class="line">                &quot;field&quot;: &quot;段落.内容&quot;,</span><br><span class="line">                &quot;include&quot;:&quot;[\u4E00-\u9FA5]&#123;2,6&#125;&quot;,</span><br><span class="line">                &quot;exclude&quot; : &quot;.*百.*|.*人.*|.*市.*|.*一.*|.*二.*|.*三.*|.*四.*|.*五.*|.*六.*|.*七.*|.*八.*|.*九.*|.*十.*&quot;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;&apos;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>include：包含2-6个中文单词的bucket key；过滤key少于两个汉子的数据的方法，参考：<a href="http://www.mamicode.com/info-detail-1669192.html；" target="_blank" rel="noopener">http://www.mamicode.com/info-detail-1669192.html；</a></li>
+<li>excude: 通过正则表达式过滤掉一部分数据，注：过滤太多程序无法解析，会出现错误；</li>
+<li>-o:将结果输入到文件91130606700751737C.txt中；<br>输出结果的格式：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;took&quot; : 174,</span><br><span class="line">  &quot;timed_out&quot; : false,</span><br><span class="line">  &quot;_shards&quot; : &#123;</span><br><span class="line">    &quot;total&quot; : 5,</span><br><span class="line">    &quot;successful&quot; : 5,</span><br><span class="line">    &quot;skipped&quot; : 0,</span><br><span class="line">    &quot;failed&quot; : 0</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;hits&quot; : &#123;</span><br><span class="line">    &quot;total&quot; : 31,</span><br><span class="line">    &quot;max_score&quot; : 0.0,</span><br><span class="line">    &quot;hits&quot; : [ ]</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;aggregations&quot; : &#123;</span><br><span class="line">    &quot;messages&quot; : &#123;</span><br><span class="line">      &quot;doc_count_error_upper_bound&quot; : 21,</span><br><span class="line">      &quot;sum_other_doc_count&quot; : 4102,</span><br><span class="line">      &quot;buckets&quot; : [</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;依照&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 28</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;太行&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 27</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;如下&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 27</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;工程&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 27</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;建筑安装&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 27</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;有限公司&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 27</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;本院&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 27</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;民事诉讼法&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 27</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;河北&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 27</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;key&quot; : &quot;原告&quot;,</span><br><span class="line">          &quot;doc_count&quot; : 25</span><br><span class="line">        &#125;</span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>如果想对某一类数据进行分析，可以使用query.bool：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">curl -X POST &quot;localhost:9200/abs_enterprise_info/_search?pretty&quot; -d&apos;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;query&quot;: &#123;</span><br><span class="line">        &quot;bool&quot;:&#123;</span><br><span class="line">            &quot;must&quot;:&#123;&quot;match&quot;:&#123;&quot;统一社会信用代码&quot;: &quot;91330110143843494L&quot;&#125;&#125;,</span><br><span class="line">            &quot;must&quot;:&#123;&quot;match&quot;:&#123;&quot;案由&quot;: &quot;建设工程施工合同纠纷&quot;&#125;&#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;&apos;</span><br></pre></td></tr></table></figure></p>
+<h3 id="四、-使用awk对输出到文件的内容进一步处理，执行"><a href="#四、-使用awk对输出到文件的内容进一步处理，执行" class="headerlink" title="四、 使用awk对输出到文件的内容进一步处理，执行:"></a>四、 使用awk对输出到文件的内容进一步处理，执行:</h3><p>awk -F”:” ‘{if($1~/key/) print $2}’ 91130606700751737C.txt &gt; 91130606700751737C_tag.txt<br>只保留中文关键字,并将结果放到新的文件中(如：91130606700751737C_tag.txt)</p>
+<h3 id="五、-去掉双引号-F”-””，并去掉换行符printf"><a href="#五、-去掉双引号-F”-””，并去掉换行符printf" class="headerlink" title="五、 去掉双引号-F”\””，并去掉换行符printf"></a>五、 去掉双引号-F”\””，并去掉换行符printf</h3><blockquote>
+<p>awk -F”\”” ‘{printf $2 $3}’ 91130606700751737C_tag.txt</p>
+</blockquote>
+<h3 id="六、-过滤掉一部分数据，如过滤包含”高”，”区”，”都”，”这”的词条，这个是在未取消换行的时候执行的"><a href="#六、-过滤掉一部分数据，如过滤包含”高”，”区”，”都”，”这”的词条，这个是在未取消换行的时候执行的" class="headerlink" title="六、 过滤掉一部分数据，如过滤包含”高”，”区”，”都”，”这”的词条，这个是在未取消换行的时候执行的"></a>六、 过滤掉一部分数据，如过滤包含”高”，”区”，”都”，”这”的词条，这个是在未取消换行的时候执行的</h3><blockquote>
+<p>awk ‘{if(!($0~/高|区|都|这/)) print $0}’ 91130606700751737C_tag.txt</p>
+</blockquote>
+<p>或</p>
+<blockquote>
+<p>awk ‘{if($0!~/高|区|都|这/) print $0}’ awkt2.txt</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2018/08/08/elasticsearch-fulltext-01/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/08/elasticsearch-fulltext-01/" itemprop="url">Elasticsearch中文全文检索</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-08T22:59:41+08:00">
+                2018-08-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/08/elasticsearch-fulltext-01/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/08/08/elasticsearch-fulltext-01/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/08/08/elasticsearch-fulltext-01/" class="leancloud_visitors" data-flag-title="Elasticsearch中文全文检索">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>前提：安装好ik-analyze</p>
+<h3 id="1-创建index"><a href="#1-创建index" class="headerlink" title="1. 创建index"></a>1. 创建index</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -XPUT http://localhost:9200/poetry</span><br></pre></td></tr></table></figure>
+<p>查询索引：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -XGET http://localhost:9200/indices</span><br></pre></td></tr></table></figure></p>
+<p>查询结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexin@hexin:~/test/es$ curl localhost:9200/_cat/indices?pretty</span><br><span class="line">green open poetry                        XxSNsdRLSxifRwg22Ezn6Q 5 1     0   0    810b   324b</span><br></pre></td></tr></table></figure></p>
+<h3 id="2-创建type的mapping。"><a href="#2-创建type的mapping。" class="headerlink" title="2. 创建type的mapping。"></a>2. 创建type的mapping。</h3><p>查看index（或者map下面的type）的mapping<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">curl -XPOST http://localhost:9200/poetry/fulltext/_mapping -H &apos;Content-Type:application/json&apos; -d&apos;</span><br><span class="line">&#123;</span><br><span class="line">        &quot;properties&quot;: &#123;</span><br><span class="line">            &quot;content&quot;: &#123;</span><br><span class="line">                &quot;type&quot;: &quot;text&quot;,</span><br><span class="line">                &quot;analyzer&quot;: &quot;ik_max_word&quot;,</span><br><span class="line">                &quot;search_analyzer&quot;: &quot;ik_max_word&quot;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">&#125;&apos;</span><br></pre></td></tr></table></figure></p>
+<p>查看映射<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl localhost:9200/poetry/_mapping?pretty</span><br></pre></td></tr></table></figure></p>
+<p>查询结果</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;poetry&quot; : &#123;</span><br><span class="line">    &quot;mappings&quot; : &#123;</span><br><span class="line">      &quot;fulltext&quot; : &#123;</span><br><span class="line">        &quot;properties&quot; : &#123;</span><br><span class="line">          &quot;content&quot; : &#123;</span><br><span class="line">            &quot;type&quot; : &quot;text&quot;,</span><br><span class="line">            &quot;analyzer&quot; : &quot;ik_max_word&quot;</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="3-插入数据"><a href="#3-插入数据" class="headerlink" title="3. 插入数据"></a>3. 插入数据</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">curl -XPOST http://localhost:9200/poetry/fulltext/1 -H &apos;Content-Type:application/json&apos; -d&apos;</span><br><span class="line">&#123;&quot;content&quot;:&quot;轻轻的我走了，正如我轻轻的来&quot;&#125;</span><br><span class="line">&apos;</span><br><span class="line"></span><br><span class="line">curl -XPOST http://localhost:9200/poetry/fulltext/2 -H &apos;Content-Type:application/json&apos; -d&apos;</span><br><span class="line">&#123;&quot;content&quot;:&quot;我轻轻的招手，作别西天的云彩&quot;&#125;</span><br><span class="line">&apos;</span><br><span class="line"></span><br><span class="line">curl -XPOST http://localhost:9200/poetry/fulltext/3 -H &apos;Content-Type:application/json&apos; -d&apos;</span><br><span class="line">&#123;&quot;content&quot;:&quot;那河畔的金柳，是夕阳中的新娘&quot;&#125;</span><br><span class="line">&apos;</span><br><span class="line"></span><br><span class="line">curl -XPOST http://localhost:9200/poetry/fulltext/4 -H &apos;Content-Type:application/json&apos; -d&apos;</span><br><span class="line">&#123;&quot;content&quot;:&quot;波光里的艳影，在我的心头荡漾&quot;&#125;</span><br><span class="line">&apos;</span><br><span class="line"></span><br><span class="line">curl -XPOST http://localhost:9200/poetry/fulltext/5 -H &apos;Content-Type:application/json&apos; -d&apos;</span><br><span class="line">&#123;&quot;content&quot;:&quot;在康河的柔波里，我甘心做一条水草&quot;&#125;</span><br><span class="line">&apos;</span><br></pre></td></tr></table></figure>
+<h3 id="4-测试分词"><a href="#4-测试分词" class="headerlink" title="4. 测试分词"></a>4. 测试分词</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">curl -X GET &quot;localhost:9200/poetry/_analyze?pretty&quot; -H &apos;Content-Type: application/json&apos; -d&apos;</span><br><span class="line">&#123;</span><br><span class="line">  &quot;field&quot;: &quot;content&quot;,</span><br><span class="line">  &quot;text&quot;: &quot;曾经沧海难为水，除却巫山不是云&quot; </span><br><span class="line">&#125;</span><br><span class="line">&apos;</span><br></pre></td></tr></table></figure>
+<p>结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;tokens&quot; : [</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;曾经沧海难为水&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 0,</span><br><span class="line">      &quot;end_offset&quot; : 7,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 0</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;曾经沧海&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 0,</span><br><span class="line">      &quot;end_offset&quot; : 4,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 1</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;曾经&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 0,</span><br><span class="line">      &quot;end_offset&quot; : 2,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 2</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;沧海&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 2,</span><br><span class="line">      &quot;end_offset&quot; : 4,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 3</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;海难&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 3,</span><br><span class="line">      &quot;end_offset&quot; : 5,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 4</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;难为&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 4,</span><br><span class="line">      &quot;end_offset&quot; : 6,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 5</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;水&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 6,</span><br><span class="line">      &quot;end_offset&quot; : 7,</span><br><span class="line">      &quot;type&quot; : &quot;CN_CHAR&quot;,</span><br><span class="line">      &quot;position&quot; : 6</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;除却巫山不是云&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 8,</span><br><span class="line">      &quot;end_offset&quot; : 15,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 7</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;除却&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 8,</span><br><span class="line">      &quot;end_offset&quot; : 10,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 8</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;巫山&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 10,</span><br><span class="line">      &quot;end_offset&quot; : 12,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 9</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;不是&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 12,</span><br><span class="line">      &quot;end_offset&quot; : 14,</span><br><span class="line">      &quot;type&quot; : &quot;CN_WORD&quot;,</span><br><span class="line">      &quot;position&quot; : 10</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;token&quot; : &quot;云&quot;,</span><br><span class="line">      &quot;start_offset&quot; : 14,</span><br><span class="line">      &quot;end_offset&quot; : 15,</span><br><span class="line">      &quot;type&quot; : &quot;CN_CHAR&quot;,</span><br><span class="line">      &quot;position&quot; : 11</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="5-检索数据"><a href="#5-检索数据" class="headerlink" title="5. 检索数据"></a>5. 检索数据</h3><p>   4.1 简单检索</p>
+<pre><code>curl localhost:9200/poetry/_search?pretty
+</code></pre><p>   4.2 全文检索</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">curl -XPOST http://localhost:9200/poetry/fulltext/_search?pretty  -H &apos;Content-Type:application/json&apos; -d&apos;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;query&quot; : &#123; &quot;match&quot; : &#123; &quot;content&quot; : &quot;轻轻&quot; &#125;&#125;,</span><br><span class="line">    &quot;highlight&quot; : &#123;</span><br><span class="line">	&quot;pre_tags&quot; : [&quot;&lt;tag1&gt;&quot;, &quot;&lt;tag2&gt;&quot;],</span><br><span class="line">	&quot;post_tags&quot; : [&quot;&lt;/tag1&gt;&quot;, &quot;&lt;/tag2&gt;&quot;],</span><br><span class="line">	&quot;fields&quot; : &#123;</span><br><span class="line">	    &quot;content&quot; : &#123;&#125;</span><br><span class="line">	&#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&apos;</span><br></pre></td></tr></table></figure>
+</code></pre><p>   4.2 聚合查询</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2018/08/03/transport-data-from-mongo-to-es/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/03/transport-data-from-mongo-to-es/" itemprop="url">将MongoDB数据加载到Elasticsearch</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-03T22:32:52+08:00">
+                2018-08-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/03/transport-data-from-mongo-to-es/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/08/03/transport-data-from-mongo-to-es/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/08/03/transport-data-from-mongo-to-es/" class="leancloud_visitors" data-flag-title="将MongoDB数据加载到Elasticsearch">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h3><p>  由于业务需要，需要将放在MongoDB的数据加载到Elasticsearch，Elasticsearch天生具有全文检索优势。MongoDB虽然新的版本也支持fulltext，但目前尚未支持中文。所以这里我们就用比较流行的Elasticsearch。<br>另外，为了方便，我会基于Docker搭建MongoDB和Elasticsearch集群</p>
+<h3 id="二、docker的安装和使用"><a href="#二、docker的安装和使用" class="headerlink" title="二、docker的安装和使用"></a>二、docker的安装和使用</h3><p>环境：Ubuntu 16.04.5 LTS</p>
+<h4 id="2-1-如果存在旧版本docker，先删除旧版本"><a href="#2-1-如果存在旧版本docker，先删除旧版本" class="headerlink" title="2.1 如果存在旧版本docker，先删除旧版本"></a>2.1 如果存在旧版本docker，先删除旧版本</h4><p>$ sudo apt-get remove docker docker-engine docker.io</p>
+<h4 id="2-2-更新apt-get"><a href="#2-2-更新apt-get" class="headerlink" title="2.2 更新apt-get"></a>2.2 更新apt-get</h4><p>$sudo apt-get update</p>
+<h4 id="2-3-添加docker官方-GPG-key"><a href="#2-3-添加docker官方-GPG-key" class="headerlink" title="2.3 添加docker官方 GPG key"></a>2.3 添加docker官方 GPG key</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</span><br><span class="line">$ sudo apt-key fingerprint 0EBFCD88</span><br><span class="line">pub   4096R/0EBFCD88 2017-02-22</span><br><span class="line">      Key fingerprint = 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88</span><br><span class="line">uid                  Docker Release (CE deb) &lt;docker@docker.com&gt;</span><br><span class="line">sub   4096R/F273FCD8 2017-02-22</span><br></pre></td></tr></table></figure>
+<h4 id="2-4-安装docker"><a href="#2-4-安装docker" class="headerlink" title="2.4 安装docker"></a>2.4 安装docker</h4><blockquote>
+<p>$ sudo apt-get install docker-ce</p>
+</blockquote>
+<p>至此，docker已经安装完成，直接输入docker命令可查看docker的帮助，如命令docker version查看docker版本信息</p>
+<p>参考：<a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1" target="_blank" rel="noopener">https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1</a></p>
+<h3 id="三、搭建MongoDB服务"><a href="#三、搭建MongoDB服务" class="headerlink" title="三、搭建MongoDB服务"></a>三、搭建MongoDB服务</h3><p>这里我们就直接使用docker仓库的mongodb镜像。</p>
+<h4 id="3-1-查询mongodb镜像"><a href="#3-1-查询mongodb镜像" class="headerlink" title="3.1 查询mongodb镜像"></a>3.1 查询mongodb镜像</h4><p>jogen@mymachine:~/test/es$ docker search mongo<br>NAME                                DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED<br>mongo                               MongoDB document databases provide high avai…   4773                [OK]<br>mongo-express                       Web-based MongoDB admin interface, written w…   274                 [OK]                </p>
+<h4 id="3-2-docker-pull拉取镜像"><a href="#3-2-docker-pull拉取镜像" class="headerlink" title="3.2 docker pull拉取镜像"></a>3.2 docker pull拉取镜像</h4><p>$docker pull mongo</p>
+<h4 id="3-3-从docker镜像安装mongo"><a href="#3-3-从docker镜像安装mongo" class="headerlink" title="3.3 从docker镜像安装mongo"></a>3.3 从docker镜像安装mongo</h4><p> docker run –name mongodb2 -p 27018:27017 -d mongo –replSet mongoReplSet<br>–replSet：添加复制集<br>查看复制机状态：rs.status()<br>查看配置：rs.conf()<br>初始化：rs.initiate()<br>修改配置：rs.reconfig(cfg),具体使用可以查看官网文档，我们这里会修改主机名为ip地址。</p>
+<h4 id="3-4-使用mongodb-compass"><a href="#3-4-使用mongodb-compass" class="headerlink" title="3.4 使用mongodb-compass"></a>3.4 使用mongodb-compass</h4><p>mongodb-compass：是mongodb的可视化工具，访问mongodb比较方便，这里使用到了它的数据导入导出功能，该工具比较方便。<br>当然RobotT3也比较好用，但是我找不到数据导入导出功能。</p>
+<h4 id="3-5-建立database和collection，并导入一些数据。"><a href="#3-5-建立database和collection，并导入一些数据。" class="headerlink" title="3.5 建立database和collection，并导入一些数据。"></a>3.5 建立database和collection，并导入一些数据。</h4><h3 id="四、搭建Elastisearch集群服务"><a href="#四、搭建Elastisearch集群服务" class="headerlink" title="四、搭建Elastisearch集群服务"></a>四、搭建Elastisearch集群服务</h3><h4 id="4-1-查询镜像"><a href="#4-1-查询镜像" class="headerlink" title="4.1 查询镜像"></a>4.1 查询镜像</h4><blockquote>
+<p>docker search elastisearch</p>
+</blockquote>
+<h4 id="4-2-拉取镜像到本地"><a href="#4-2-拉取镜像到本地" class="headerlink" title="4.2 拉取镜像到本地"></a>4.2 拉取镜像到本地</h4><blockquote>
+<p>docker pull docker.elastic.co/elasticsearch/elasticsearch:5.6.10</p>
+</blockquote>
+<p>docker官方中央仓库维护的es已经不再维护，elastic已经自己建立了自己的私有库，并维护。</p>
+<p>docker官方仓库的elastic镜像地址：<a href="https://hub.docker.com/_/elasticsearch/" target="_blank" rel="noopener">https://hub.docker.com/_/elasticsearch/</a>, elastic6版本之后的，都放在elastic自己的docker仓库维护了。<br>elastic的仓库是：<a href="https://www.docker.elastic.co/" target="_blank" rel="noopener">https://www.docker.elastic.co/</a></p>
+<h4 id="4-3-使用安装docker-compose"><a href="#4-3-使用安装docker-compose" class="headerlink" title="4.3 使用安装docker-compose"></a>4.3 使用安装docker-compose</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose</span><br><span class="line">sudo chmod +x /usr/local/bin/docker-compose</span><br><span class="line">$ docker-compose --version</span><br></pre></td></tr></table></figure>
+<p>参考：<a href="https://docs.docker.com/compose/install/#install-compose" target="_blank" rel="noopener">https://docs.docker.com/compose/install/#install-compose</a></p>
+<h4 id="4-4-创建docker-compose-yml文件"><a href="#4-4-创建docker-compose-yml文件" class="headerlink" title="4.4 创建docker-compose.yml文件"></a>4.4 创建docker-compose.yml文件</h4><p>本地新建一个目录，如elastictest，存放自己的项目项目信息，docker-compose.yml也放在里面，其内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">version: &apos;2&apos;</span><br><span class="line">services:</span><br><span class="line">  elasticsearch1:</span><br><span class="line">    image: docker.elastic.co/elasticsearch/elasticsearch:5.6.10</span><br><span class="line">    container_name: elasticsearch1</span><br><span class="line">    environment:</span><br><span class="line">      - cluster.name=docker-cluster</span><br><span class="line">      - xpack.security.enabled=false</span><br><span class="line">      - bootstrap.memory_lock=true</span><br><span class="line">      - &quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot;</span><br><span class="line">    ulimits:</span><br><span class="line">      memlock:</span><br><span class="line">        soft: -1</span><br><span class="line">        hard: -1</span><br><span class="line">    mem_limit: 1g</span><br><span class="line">    volumes:</span><br><span class="line">      - esdata1:/usr/share/elasticsearch/data</span><br><span class="line">    ports:</span><br><span class="line">      - 9200:9200</span><br><span class="line">    networks:</span><br><span class="line">      - esnet</span><br><span class="line">  elasticsearch2:</span><br><span class="line">    image: docker.elastic.co/elasticsearch/elasticsearch:5.6.10</span><br><span class="line">    environment:</span><br><span class="line">      - cluster.name=docker-cluster</span><br><span class="line">      - xpack.security.enabled=false</span><br><span class="line">      - bootstrap.memory_lock=true</span><br><span class="line">      - &quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot;</span><br><span class="line">      - &quot;discovery.zen.ping.unicast.hosts=elasticsearch1&quot;</span><br><span class="line">    ulimits:</span><br><span class="line">      memlock:</span><br><span class="line">        soft: -1</span><br><span class="line">        hard: -1</span><br><span class="line">    mem_limit: 1g</span><br><span class="line">    volumes:</span><br><span class="line">      - esdata2:/usr/share/elasticsearch/data</span><br><span class="line">    networks:</span><br><span class="line">      - esnet</span><br><span class="line"></span><br><span class="line">volumes:</span><br><span class="line">  esdata1:</span><br><span class="line">    driver: local</span><br><span class="line">  esdata2:</span><br><span class="line">    driver: local</span><br><span class="line"></span><br><span class="line">networks:</span><br><span class="line">  esnet:</span><br></pre></td></tr></table></figure></p>
+<p>说明： - xpack.security.enabled=false 配置这个，是因为docker中的elasticsearch默认安装了x-path插件，该插件在我们访问es时需要输入账号密码（默认是elastic/changeme），在数据同步的时候可能会比较麻烦.</p>
+<h4 id="4-5-启动服务"><a href="#4-5-启动服务" class="headerlink" title="4.5 启动服务"></a>4.5 启动服务</h4><p>docker-compose up</p>
+<h4 id="4-6-安装elasticsearch-head扩展插件"><a href="#4-6-安装elasticsearch-head扩展插件" class="headerlink" title="4.6 安装elasticsearch-head扩展插件"></a>4.6 安装elasticsearch-head扩展插件</h4><p>ElasticSearch-Head插件有助于查看和管理es集群，有多种安装方式，可以参考：<a href="https://github.com/mobz/elasticsearch-head" target="_blank" rel="noopener">https://github.com/mobz/elasticsearch-head</a><br>我这里是使用chrome扩展方式，比较方便。<br>进入chrome的Web-store，搜索ElasticSearch Head并安装</p>
+<h4 id="4-7-访问集群"><a href="#4-7-访问集群" class="headerlink" title="4.7 访问集群"></a>4.7 访问集群</h4><p>es集群启动好之后，通过head插件访问结果如下：</p>
+<h3 id="五、使用Transporter传输数据"><a href="#五、使用Transporter传输数据" class="headerlink" title="五、使用Transporter传输数据"></a>五、使用Transporter传输数据</h3><p>现在MongoDB和ES集群都已经启动起来了，接下来就是数据同步的问题，从MongoDB到ElasticSearch的同步有多种方式：</p>
+<pre><code>1. mongo-connector：
+2. logstach
+3. Transporter
+4. elasticsearch-river-mongodb
+5. Mongoosastic
+</code></pre><p>具体的区别可参考：<a href="https://code.likeagirl.io/5-different-ways-to-synchronize-data-from-mongodb-to-elasticsearch-d8456b83d44f" target="_blank" rel="noopener">https://code.likeagirl.io/5-different-ways-to-synchronize-data-from-mongodb-to-elasticsearch-d8456b83d44f</a><br>一开始，我使用的是mongo-connector方式，但只支持es5.x版本，到目前位置，尚未支持es6.x。一个原因可能是es更新太快，mongo-connector已经力不从心。我们从github上看到，已经半年没有更新了，一个致命的点就是跟es的版本强相关。所以我上面docker镜像也是使用的5.x版本的原因。其实目前es已经到6.3.2版本了。<br>此外，在使用mongo-connector过程中，需要用到elastic2_doc_manager中间组件，运行时经常同步不了数据，一运行同步程序，就卡主，没有任何日志输出。这让人难以接受。于是就想尝试使用tansporter。</p>
+<p>transporter的使用参考：<a href="https://github.com/compose/transporter" target="_blank" rel="noopener">https://github.com/compose/transporter</a><br>这里列出主要步骤：</p>
+<ol>
+<li><p>下载transporter客户端<br><a href="https://github.com/compose/transporter/releases/download/v0.5.2/transporter-0.5.2-linux-amd64" target="_blank" rel="noopener">https://github.com/compose/transporter/releases/download/v0.5.2/transporter-0.5.2-linux-amd64</a><br>添加执行权限：chmod +x transporter-0.5.2-linux-amd64<br>修改名称：mv transporter-0.5.2-linux-amd64 transporter<br>发送到、/usr/bin 目录，以供全局使用：mv transporter /usr/bin</p>
+</li>
+<li><p>transporter初始化<br>在项目目录elastictest执行：transporter init mongodb elasticsearch<br>执行完后，在本地生成一个pipline.js文件，文件内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">var source = mongodb(&#123;</span><br><span class="line">  &quot;uri&quot;: &quot;mongodb://127.0.0.1:27017/enterprise&quot;</span><br><span class="line">  // &quot;timeout&quot;: &quot;30s&quot;,</span><br><span class="line">  // &quot;tail&quot;: false,</span><br><span class="line">  // &quot;ssl&quot;: false,</span><br><span class="line">  // &quot;cacerts&quot;: [&quot;/path/to/cert.pem&quot;],</span><br><span class="line">  // &quot;wc&quot;: 1,</span><br><span class="line">  // &quot;fsync&quot;: false,</span><br><span class="line">  // &quot;bulk&quot;: false,</span><br><span class="line">  // &quot;collection_filters&quot;: &quot;&#123;&#125;&quot;,</span><br><span class="line">  // &quot;read_preference&quot;: &quot;Primary&quot;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">var sink = elasticsearch(&#123;</span><br><span class="line">  &quot;uri&quot;: &quot;http://localhost:9200/enterprise&quot;</span><br><span class="line">  // &quot;timeout&quot;: &quot;10s&quot;, // defaults to 30s</span><br><span class="line">  // &quot;aws_access_key&quot;: &quot;ABCDEF&quot;, // used for signing requests to AWS Elasticsearch service</span><br><span class="line">  // &quot;aws_access_secret&quot;: &quot;ABCDEF&quot; // used for signing requests to AWS Elasticsearch service</span><br><span class="line">  // &quot;parent_id&quot;: &quot;elastic_parent&quot; // defaults to &quot;elastic_parent&quot; parent identifier for Elasticsearch</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">t.Source(&quot;source&quot;, source, &quot;/.*/&quot;).Save(&quot;sink&quot;, sink, &quot;/.*/&quot;)</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>住需要修改两个地方的uri，这里我已经修改了。</p>
+<ol start="3">
+<li>执行数据同步<br>transporter run<br>到此数据同步完成，可以开心地打开head扩展插件查看同步结果了。</li>
+</ol>
+<p>可以参考：<a href="https://aboullaite.me/sync-data-from-mongodb-to-elasticsearch-using-transporter/" target="_blank" rel="noopener">https://aboullaite.me/sync-data-from-mongodb-to-elasticsearch-using-transporter/</a></p>
+<h3 id="六、总结"><a href="#六、总结" class="headerlink" title="六、总结"></a>六、总结</h3><p>在实践过程中还是需要多尝试，使用mongo-connector的过程中，甚至出现需要去直接修改源码的情况，比如请求过程中的headers缺少了Content-Type，需要手动添加进去。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2018/07/26/ssh-keygen/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/26/ssh-keygen/" itemprop="url">使用ssh-keygen实现免密登录服务器</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-26T22:19:31+08:00">
+                2018-07-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/26/ssh-keygen/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/07/26/ssh-keygen/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/07/26/ssh-keygen/" class="leancloud_visitors" data-flag-title="使用ssh-keygen实现免密登录服务器">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>参考：<a href="https://www.cnblogs.com/dream-to-pku/p/7049760.html" target="_blank" rel="noopener">https://www.cnblogs.com/dream-to-pku/p/7049760.html</a></p>
+<h3 id="一、目标：免密登陆服务器"><a href="#一、目标：免密登陆服务器" class="headerlink" title="一、目标：免密登陆服务器"></a>一、目标：免密登陆服务器</h3><p>有两台服务器，分别为web12和web13，需要实现web12免密码登录web13<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">192.168.1.12    web12</span><br><span class="line">192.168.1.13    web13</span><br></pre></td></tr></table></figure></p>
+<h3 id="二、生成公钥私钥对"><a href="#二、生成公钥私钥对" class="headerlink" title="二、生成公钥私钥对"></a>二、生成公钥私钥对</h3><p>web12在用户（假设为root）目录下执行命令: </p>
+<blockquote>
+<p>ssh-keygen -t rsa,</p>
+</blockquote>
+<p>或者直接执行ssh-keygen命令（默认使用的也是rsa加密类型）。<br>此时会在当前目录下生成.ssh文件夹，里面有公钥（id_rsa.pub）和秘钥(id_rsa)</p>
+<h3 id="三、在web13上也用同样的方式生成公钥和秘钥"><a href="#三、在web13上也用同样的方式生成公钥和秘钥" class="headerlink" title="三、在web13上也用同样的方式生成公钥和秘钥"></a>三、在web13上也用同样的方式生成公钥和秘钥</h3><h3 id="四、修改配置文件"><a href="#四、修改配置文件" class="headerlink" title="四、修改配置文件"></a>四、修改配置文件</h3><p>在web13上，查看/etc/ssh/sshd_config文件，找到：</p>
+<blockquote>
+<p>AuthorizedKeysFile      .ssh/authorized_keys</p>
+</blockquote>
+<p>如果没有需要加上。</p>
+<h3 id="五、提交公钥到服务器"><a href="#五、提交公钥到服务器" class="headerlink" title="五、提交公钥到服务器"></a>五、提交公钥到服务器</h3><p>web12上执行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cat id_rsa.pub &gt;&gt; authorized_keys #把公钥复制到文件authorized_keys中</span><br><span class="line">chmod 600 authorized_keys	 #修改文件权限，否则可能会无法登录</span><br><span class="line">scp authorized_keys root@45.77.43.6:/root/.ssh/	#将web12上生成的公钥信息拷贝到主服务器上，主服务器配置了sshd_config，认证文件指向了authorized_keys文件。</span><br></pre></td></tr></table></figure></p>
+<h3 id="六、执行免密登陆"><a href="#六、执行免密登陆" class="headerlink" title="六、执行免密登陆"></a>六、执行免密登陆</h3><p>在web12上执行：</p>
+<blockquote>
+<p>ssh <a href="mailto:root@45.77.43.6" target="_blank" rel="noopener">root@45.77.43.6</a> </p>
+</blockquote>
+<p>验证是否已经实现了免密登录，正常来说是可以了的。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2018/07/25/centos-google-chrome/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/25/centos-google-chrome/" itemprop="url">在CentOS安装google-chrome</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-25T22:19:39+08:00">
+                2018-07-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/25/centos-google-chrome/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/07/25/centos-google-chrome/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/07/25/centos-google-chrome/" class="leancloud_visitors" data-flag-title="在CentOS安装google-chrome">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一、写这篇文章的原因"><a href="#一、写这篇文章的原因" class="headerlink" title="一、写这篇文章的原因"></a>一、写这篇文章的原因</h3><p>最近在写爬虫，需要解析动态页面数据，不能够直接请求接口，接口有经过复杂的加密。解析动态页面需要用到浏览器的支持，有三个浏览器可以使用：<br>chrome<br>firefox<br>PhantomJS<br>由于firefox解析的时候，部分页面没有会乱，如在获取验证码的位置时获取不到，而验证码的页面是嵌套在iframe下面的。而PhantomJS已经不再支持，官方建议使用chrome和firefox。基于以上情况，我选择使用google的chrome无头浏览器。</p>
+<h3 id="二、google-chrome无头浏览器"><a href="#二、google-chrome无头浏览器" class="headerlink" title="二、google-chrome无头浏览器"></a>二、google-chrome无头浏览器</h3><p>使用参考：<a href="https://developers.google.com/web/updates/2017/04/headless-chrome" target="_blank" rel="noopener">https://developers.google.com/web/updates/2017/04/headless-chrome</a></p>
+<h3 id="三、google-chrome的安装"><a href="#三、google-chrome的安装" class="headerlink" title="三、google-chrome的安装"></a>三、google-chrome的安装</h3><p>由于爬虫应用需要放在CentOS服务器上，因此需要在CentOS安装google-chrome。安装过程参考<br>配置yum源</p>
+<ol>
+<li>在/etc/apt/sources.list加上<br>deb [arch=amd64] <a href="http://dl.google.com/linux/chrome/deb/" target="_blank" rel="noopener">http://dl.google.com/linux/chrome/deb/</a> stable main</li>
+<li>执行<br>wget <a href="https://dl.google.com/linux/linux_signing_key.pub" target="_blank" rel="noopener">https://dl.google.com/linux/linux_signing_key.pub</a></li>
+<li>执行<br>sudo apt-key add linux_signing_key.pub</li>
+<li>执行<ul>
+<li>sudo apt update</li>
+<li>sudo apt install google-chrome-stable</li>
+</ul>
+</li>
+</ol>
+<p>参考：<a href="https://www.linuxbabe.com/ubuntu/install-google-chrome-ubuntu-16-04-lts" target="_blank" rel="noopener">https://www.linuxbabe.com/ubuntu/install-google-chrome-ubuntu-16-04-lts</a></p>
+<h4 id="四、报错："><a href="#四、报错：" class="headerlink" title="四、报错："></a>四、报错：</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Transaction Summary</span><br><span class="line">===================================================================================================================</span><br><span class="line">Install  1 Package (+37 Dependent packages)</span><br><span class="line"></span><br><span class="line">Total size: 71 M</span><br><span class="line">Installed size: 236 M</span><br><span class="line">Is this ok [y/d/N]: y</span><br><span class="line">Downloading packages:</span><br><span class="line">warning: /var/cache/yum/x86_64/7/google-chrome/packages/google-chrome-stable-67.0.3396.99-1.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 7fac5991: NOKEY</span><br><span class="line">Retrieving key from https://dl-ssl.google.com/linux/linux_signing_key.pub</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">GPG key retrieval failed: [Errno 14] curl#7 - "Failed to connect to 2404:6800:4008:c02::be: Network is unreachable"</span><br><span class="line">[root@reptile v2ray]#</span><br></pre></td></tr></table></figure>
+<p>通过报错信息，我们知道是无法下载 <a href="https://dl-ssl.google.com/linux/linux_signing_key.pub文件，我们的CentOS是没有做翻墙的，所以无法安装。" target="_blank" rel="noopener">https://dl-ssl.google.com/linux/linux_signing_key.pub文件，我们的CentOS是没有做翻墙的，所以无法安装。</a><br>解决办法</p>
+<ol>
+<li><p>需要先在可以翻墙的机器（我本地开发机就安装了ssr翻墙）下载这个文件，然后再scp拷贝到我们的服务器上。</p>
+<blockquote>
+<p>wget <a href="https://dl-ssl.google.com/linux/linux_signing_key.pub" target="_blank" rel="noopener">https://dl-ssl.google.com/linux/linux_signing_key.pub</a></p>
+</blockquote>
+</li>
+<li><p>拷贝到CentOS后，执行如下命令。</p>
+<blockquote>
+<p>rpm –import linux_signing_key.pub</p>
+</blockquote>
+</li>
+<li>校验是否已经正确import<blockquote>
+<p>rpm -qi gpg-pubkey-7fac5991-*  </p>
+</blockquote>
+</li>
+</ol>
+<p>参考：<a href="https://blog.csdn.net/knityster/article/details/6312498" target="_blank" rel="noopener">https://blog.csdn.net/knityster/article/details/6312498</a></p>
+<p>到此准备工作已经完成</p>
+<h4 id="五、正式安装，执行命令"><a href="#五、正式安装，执行命令" class="headerlink" title="五、正式安装，执行命令"></a>五、正式安装，执行命令</h4><p>yum install -y google-chrome-stable</p>
+<p>安装完成后，校验是否安装成功：</p>
+<blockquote>
+<p>google-chrome –no-sandbox –headless –disable-gpu –screenshot <a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></p>
+</blockquote>
+<p>执行完后，在当前目录生成一个png文件。就是baidu首页的截图</p>
+<h3 id="六、其他："><a href="#六、其他：" class="headerlink" title="六、其他："></a>六、其他：</h3><p>安装firefox无头浏览器参考：<br><a href="https://developer.mozilla.org/en-US/Firefox/Headless_mode" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/Firefox/Headless_mode</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2018/04/05/mysql-logic-graph/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/05/mysql-logic-graph/" itemprop="url">mysql-logic-graph</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-05T13:12:29+08:00">
+                2018-04-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/05/mysql-logic-graph/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/04/05/mysql-logic-graph/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/04/05/mysql-logic-graph/" class="leancloud_visitors" data-flag-title="mysql-logic-graph">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="逻辑架构图"><a href="#逻辑架构图" class="headerlink" title="逻辑架构图"></a>逻辑架构图</h1><p><img src="http://39.108.10.27/dbe9a02419558159d16e58523d29acbb?q=100" alt="http://39.108.10.27/dbe9a02419558159d16e58523d29acbb?q=100"></p>
+<p>MySQL的逻辑架构大致可以分为三层；</p>
+<h2 id="第一层：客户端层"><a href="#第一层：客户端层" class="headerlink" title="第一层：客户端层"></a>第一层：客户端层</h2><p>连接处理、授权认证、安全</p>
+<h2 id="第二层：核心服务"><a href="#第二层：核心服务" class="headerlink" title="第二层：核心服务"></a>第二层：核心服务</h2><p>查询解析、分析、优化、缓存以及所有的内置函数（例如，日期、时间、数学和加密函数），所有跨存储引擎的功能都在这一层实现：视图、触发器、储存过程等。</p>
+<h2 id="第三层：存储引擎"><a href="#第三层：存储引擎" class="headerlink" title="第三层：存储引擎"></a>第三层：存储引擎</h2><p>存储引擎负责 MySQL 中数据的存储和提取，不同存储引擎之间不会相互通信。</p>
+<h1 id="并发控制"><a href="#并发控制" class="headerlink" title="并发控制"></a>并发控制</h1><h2 id="读写锁"><a href="#读写锁" class="headerlink" title="读写锁"></a>读写锁</h2><p>锁类型：（Shared Lock）共享锁和（Exclusive Lock）排他锁。</p>
+<p>共享锁也叫（Read Lock）读锁，排他锁也叫（Write Lock）写锁。</p>
+<h2 id="锁粒度"><a href="#锁粒度" class="headerlink" title="锁粒度"></a>锁粒度</h2><p>（table lock）表锁和（row lock）行锁。</p>
+<h2 id="事务"><a href="#事务" class="headerlink" title="事务"></a>事务</h2><p>数据库事务的ACID特性</p>
+<ul>
+<li>原子性（atomicity）</li>
+<li>一致性(consistency)</li>
+<li>隔离性(isolation)</li>
+<li>持久性(durability)</li>
+</ul>
+<h3 id="数据库事务的隔离级别"><a href="#数据库事务的隔离级别" class="headerlink" title="数据库事务的隔离级别"></a>数据库事务的隔离级别</h3><ul>
+<li>READ UNCOMMITED (未提交读)</li>
+<li>READ COMMITED (提交读)；Oracle默认事务隔离级别</li>
+<li>REPEATABLE READ (可重复读)；MySQL默认事务隔离级别</li>
+<li>SERIALIZABLE (可串行化)</li>
+</ul>
+<h3 id="死锁"><a href="#死锁" class="headerlink" title="死锁"></a>死锁</h3><p>什么时候会发生死锁：</p>
+<ol>
+<li>当多个事务试图以不同的顺序锁定资源时，就可能会产生死锁；</li>
+<li>多个事务同时锁定统一资源时，也会产生死锁。</li>
+</ol>
+<p>处理办法：</p>
+<ol>
+<li>死锁检测；数据库系统实现了各种死锁检测和死锁超时机制。</li>
+<li><p>InnoDB处理死锁方式:将持有最少行级排它锁的事务进行回滚。</p>
+<p> 锁的行为和顺序是和存储引擎相关的。</p>
+<h2 id="多并发版本控制"><a href="#多并发版本控制" class="headerlink" title="多并发版本控制"></a>多并发版本控制</h2><p>MySQL的大多数存储引擎实现的都不是简单的行级锁。基于提升并发性能的思考，他们一般实现了多版本并发控制（MVCC）。</p>
+</li>
+</ol>
+<p>InnoDB 的 MVCC，是通过在每行记录后面保存两个隐藏的列来实现的。</p>
+<h2 id="MySQL存储引擎"><a href="#MySQL存储引擎" class="headerlink" title="MySQL存储引擎"></a>MySQL存储引擎</h2><p>常用的有两个</p>
+<ul>
+<li>InnoDB 存储引擎</li>
+<li>MyISAM 存储引擎。MySQL5.1 及之前的版本，MyISAM是默认的存储引擎。</li>
+</ul>
+<p>MyISAM 特点：提供全文索引、压缩、空间函数（GIS）等；不支持事务和行级锁；崩溃后无法安全恢复。</p>
+<p>其他内建存储引擎：Archive、Blackhole、Federated、Memory、Merge、NDB等<br>第三方存储引擎：OLTP类引擎、面向列的存储引擎、社区存储引擎</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2017/07/22/memcached/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/22/memcached/" itemprop="url">memcached的安装和使用（单点）</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-22T23:18:12+08:00">
+                2017-07-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/07/22/memcached/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/07/22/memcached/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017/07/22/memcached/" class="leancloud_visitors" data-flag-title="memcached的安装和使用（单点）">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Linux安装memcached</p>
+<h4 id="一、Memcached的安装：使用命令安装"><a href="#一、Memcached的安装：使用命令安装" class="headerlink" title="一、Memcached的安装：使用命令安装"></a>一、Memcached的安装：使用命令安装</h4><ol>
+<li><p>使用命令安装<br>安装时，会自动安装memcached的依赖libevent。libevent是memcached的通信模块。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install memcached</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>启动memcached服务<br>安装完成后，可以使用<strong>find / -name memcached</strong>命令查询memcached存放的目录。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@izwz96tljwj636zfkf3wvqz ~]# find / -name memcached</span><br><span class="line">/etc/selinux/targeted/active/modules/<span class="number">100</span>/memcached</span><br><span class="line">/etc/sysconfig/memcached</span><br><span class="line">/usr/bin/memcached</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>memcached命令放在/usr/bin/目录下面，cd到/usr/bin目录，执行启动memcached服务命令<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">memcached -d -m <span class="number">512</span> -u root  -p <span class="number">11211</span> -c <span class="number">10000</span>  -M -f <span class="number">1.1</span> -P /tmp/memcached.pid</span><br></pre></td></tr></table></figure></p>
+<p>启动成功后，就可以在window上面<br>telnet ip 11211测试是否可以使用了。</p>
+<p>启动memcached<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]# memcached -d -m 10 -u root -l 192.168.1.75 -p 11212 -c 256 -P /tmp/memcached.pid</span><br><span class="line">[root@localhost ~]# ps -ef|grep memcached</span><br><span class="line"></span><br><span class="line">memcached -d -m <span class="number">10</span> -u root -l <span class="number">39.108</span><span class="number">.10</span><span class="number">.27</span> -p <span class="number">11212</span> -c <span class="number">256</span> -P /tmp/memcached.pid</span><br></pre></td></tr></table></figure></p>
+<h4 id="二、memcached的使用"><a href="#二、memcached的使用" class="headerlink" title="二、memcached的使用"></a>二、memcached的使用</h4><ol>
+<li><p>配置连接信息<br>在属性文件sys.properties中配置memcached的连接信息;如果是集群方式，这配置多个服务连接信息</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#memcached</span><br><span class="line"># the pool size(the number of client)</span><br><span class="line">memcached.connectionPoolSize=<span class="number">5</span></span><br><span class="line"># in this mode, when a node out, it will throws MemcachedException when call this node</span><br><span class="line">memcached.failureMode=<span class="literal">true</span></span><br><span class="line">#server1</span><br><span class="line">memcached.server1.host=<span class="number">39.108</span><span class="number">.10</span><span class="number">.27</span></span><br><span class="line">memcached.server1.port=<span class="number">11211</span></span><br><span class="line">memcached.server1.weight=<span class="number">1</span></span><br><span class="line">#server2</span><br><span class="line">#memcached.server2.host=192.168.88.141</span><br><span class="line">#memcached.server2.port=11211</span><br><span class="line">#memcached.server2.weight=1</span><br><span class="line">#server3</span><br><span class="line">#memcached.server3.host=192.168.88.142</span><br><span class="line">#memcached.server3.port=11211</span><br><span class="line">#memcached.server3.weight=1</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在config-cache.xml的spring配置文件中配置memcached客户端构建器</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--memcached配置开始--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">"memcachedClientBuilder"</span> <span class="attr">class</span>=<span class="string">"net.rubyeye.xmemcached.XMemcachedClientBuilder"</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- XMemcachedClientBuilder have two arguments.First is server list,and</span></span><br><span class="line"><span class="comment">            second is weights array. --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"connectionPoolSize"</span> <span class="attr">value</span>=<span class="string">"$&#123;memcached.connectionPoolSize&#125;"</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"failureMode"</span> <span class="attr">value</span>=<span class="string">"$&#123;memcached.failureMode&#125;"</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">constructor-arg</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">list</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">bean</span> <span class="attr">class</span>=<span class="string">"java.net.InetSocketAddress"</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">constructor-arg</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">value</span>&gt;</span>$&#123;memcached.server1.host&#125;<span class="tag">&lt;/<span class="name">value</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">constructor-arg</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">constructor-arg</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">value</span>&gt;</span>$&#123;memcached.server1.port&#125;<span class="tag">&lt;/<span class="name">value</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">constructor-arg</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">bean</span>&gt;</span></span><br><span class="line">                <span class="comment">&lt;!--</span></span><br><span class="line"><span class="comment">                &lt;bean class="java.net.InetSocketAddress"&gt;</span></span><br><span class="line"><span class="comment">                    &lt;constructor-arg&gt;</span></span><br><span class="line"><span class="comment">                        &lt;value&gt;$&#123;memcached.server2.host&#125;&lt;/value&gt;</span></span><br><span class="line"><span class="comment">                    &lt;/constructor-arg&gt;</span></span><br><span class="line"><span class="comment">                    &lt;constructor-arg&gt;</span></span><br><span class="line"><span class="comment">                        &lt;value&gt;$&#123;memcached.server2.port&#125;&lt;/value&gt;</span></span><br><span class="line"><span class="comment">                    &lt;/constructor-arg&gt;</span></span><br><span class="line"><span class="comment">                &lt;/bean&gt;</span></span><br><span class="line"><span class="comment">                &lt;bean class="java.net.InetSocketAddress"&gt;</span></span><br><span class="line"><span class="comment">                    &lt;constructor-arg&gt;</span></span><br><span class="line"><span class="comment">                        &lt;value&gt;$&#123;memcached.server3.host&#125;&lt;/value&gt;</span></span><br><span class="line"><span class="comment">                    &lt;/constructor-arg&gt;</span></span><br><span class="line"><span class="comment">                    &lt;constructor-arg&gt;</span></span><br><span class="line"><span class="comment">                        &lt;value&gt;$&#123;memcached.server3.port&#125;&lt;/value&gt;</span></span><br><span class="line"><span class="comment">                    &lt;/constructor-arg&gt;</span></span><br><span class="line"><span class="comment">                &lt;/bean&gt;</span></span><br><span class="line"><span class="comment">                --&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">list</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">constructor-arg</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">constructor-arg</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">list</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">value</span>&gt;</span>$&#123;memcached.server1.weight&#125;<span class="tag">&lt;/<span class="name">value</span>&gt;</span></span><br><span class="line">                <span class="comment">&lt;!--&lt;value&gt;$&#123;memcached.server2.weight&#125;&lt;/value&gt;--&gt;</span></span><br><span class="line">                <span class="comment">&lt;!--&lt;value&gt;$&#123;memcached.server3.weight&#125;&lt;/value&gt;--&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">list</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">constructor-arg</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- BinaryCommandFactory --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"commandFactory"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">bean</span> <span class="attr">class</span>=<span class="string">"net.rubyeye.xmemcached.command.BinaryCommandFactory"</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">property</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"transcoder"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">bean</span> <span class="attr">class</span>=<span class="string">"net.rubyeye.xmemcached.transcoders.SerializingTranscoder"</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">property</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"bufferAllocator"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">bean</span> <span class="attr">class</span>=<span class="string">"net.rubyeye.xmemcached.buffer.SimpleBufferAllocator"</span>&gt;</span><span class="tag">&lt;/<span class="name">bean</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">property</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">bean</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- Use factory bean to build memcached client --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">"memcachedClient"</span> <span class="attr">factory-bean</span>=<span class="string">"memcachedClientBuilder"</span></span></span><br><span class="line"><span class="tag">          <span class="attr">factory-method</span>=<span class="string">"build"</span> <span class="attr">destroy-method</span>=<span class="string">"shutdown"</span> /&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--memcached配置结束--&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在java代码中使用</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//注入客户端</span></span><br><span class="line">@Resource</span><br><span class="line">private MemcachedClient memcachedClient;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//在方法中使用(对缓存执行增删改查)</span></span><br><span class="line"> memcachedClient.delete(DOMAIN_TREE_ROOT_KEY);</span><br></pre></td></tr></table></figure></li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2017/07/14/ionic01/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/14/ionic01/" itemprop="url">在mac上开发ionic项目</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-14T13:29:25+08:00">
+                2017-07-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/07/14/ionic01/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/07/14/ionic01/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017/07/14/ionic01/" class="leancloud_visitors" data-flag-title="在mac上开发ionic项目">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h4 id="1-环境准备"><a href="#1-环境准备" class="headerlink" title="1. 环境准备"></a>1. 环境准备</h4><p>npm install -g cordova ionic<br>配置android sdk和java环境变量<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">~$cat ./.bash_profile</span><br><span class="line">JAVA_HOME=<span class="regexp">/Library/</span>Java/JavaVirtualMachines/jdk1<span class="number">.7</span><span class="number">.0</span>_80.jdk/Contents/Home</span><br><span class="line">ANDROID_HOME=<span class="regexp">/Users/</span>wukangjie/Library/Android/sdk</span><br><span class="line">M2_HOME=<span class="regexp">/Users/</span>wukangjie/Documents/apache-maven<span class="number">-3.5</span><span class="number">.0</span></span><br><span class="line">PATH=$JAVA_HOME/bin:$PATH:.:$M2_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools</span><br><span class="line">CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:.</span><br><span class="line"><span class="keyword">export</span> JAVA_HOME</span><br><span class="line"><span class="keyword">export</span> ANDROID_HOME</span><br><span class="line"><span class="keyword">export</span> PATH</span><br><span class="line"><span class="keyword">export</span> CLASSPAT</span><br><span class="line"><span class="keyword">export</span> M2_HOME</span><br></pre></td></tr></table></figure></p>
+<h4 id="2-创建ionic应用"><a href="#2-创建ionic应用" class="headerlink" title="2. 创建ionic应用"></a>2. 创建ionic应用</h4><p>ionic start myApp tabs</p>
+<h4 id="3-启动应用"><a href="#3-启动应用" class="headerlink" title="3. 启动应用"></a>3. 启动应用</h4><p>cd myApp<br>ionic serve</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/07/14/ionic01/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bambooj.github.io/2017/05/29/vps/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jogen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jogen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/05/29/vps/" itemprop="url">使用vps搭建翻墙服务，实现科学上网</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-29T01:45:32+08:00">
+                2017-05-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/05/29/vps/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/05/29/vps/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017/05/29/vps/" class="leancloud_visitors" data-flag-title="使用vps搭建翻墙服务，实现科学上网">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>用过当前市面上比较流行的翻墙工具，比如lantern、loco加速器。但都比较贵，一个月好几十块钱，有时还不是很稳定，于是就想自己租用一个外地服务器，实现科学上网，这里使用的是vultr服务器搭建翻墙</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/05/29/vps/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/avatar.jpg"
+               alt="Jogen" />
+          <p class="site-author-name" itemprop="name">Jogen</p>
+           
+              <p class="site-description motion-element" itemprop="description">子曰：知者不惑，仁者不忧，勇者无惧</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">27</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/2061547563" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://bambooj.github.io" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              友情链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://visoon0012.github.io/" title="瞬子博客" target="_blank">瞬子博客</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.ruanyifeng.com/home.html" title="阮一峰网络日志" target="_blank">阮一峰网络日志</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2017 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jogen</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://wukj.disqus.com/count.js" async></script>
+    
+
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (search_path.endsWith("json")) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("", "");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
