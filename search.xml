@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[VMVersionMismatchException解决方案]]></title>
+    <url>%2F2019%2F12%2F11%2FVMVersionMismatchException%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
+    <content type="text"><![CDATA[一、执行jmap -heap 报错在本机执行jmap -heap 时，报错，报错信息如下：1sun.jvm.hotspot.runtime.VMVersionMismatchException: Supported versions are 25.222-b10. Target VM is 25.161-b12 二、问题分析2.1 提示是支持的jvm版本(小版本)是 25.222-b10，目标版本是25.161-b122.2 大致可以确定为class文件编译的版本和执行的版本不一致三、检查和解决问题3.1 检查发现，本地存在两个jdk版本一个是openjdk，另一个是安装的oracle JDK，大版本均为1.8。所以在简单的使用java和javac时能正常运行。但是想使用bin下其他工具时，由于小版本不一致，可能就无法运行，如jmap可能就有问题了。 3.2 openjdkopenjdk是ubuntu下面默认安装的jdk版本，但是由于openjdk的一些限制(如没有javafx的支持)，所以又安装了Oracle的JDK。 使用update-alternatives工具对本地存在的多个jdk版本进行管理，随时切换。 3.3 检查java -version 和javac -version版本发现不一致。此时需要配置JAVA_HOME为OracleJDK的安装目录。可以在.bashrc中配置。 3.4 再次使用jmap时，发现还是报错此时执行whereis jmap，输出如下： 12hexin@hexin-OptiPlex-3046:~$ whereis jmapjmap: /usr/bin/jmap /usr/share/man/man1/jmap.1.gz bin下的jmap是一个链接，修改其链接即可。]]></content>
+      <tags>
+        <tag>jvm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[每周分享-20180824]]></title>
     <url>%2F2018%2F08%2F24%2Fweekly-20180824%2F</url>
     <content type="text"><![CDATA[1. IDEA插件Statistic Intellij IDEA 代码统计插件 Statistic 可以快速有效地查看项目代码行数、文件数量，大小等； 2. Maven命令mvn dependency:getMaven命令行下载以来Jar包命令，如 mvn dependency:get -Dverbose -Dincludes=org.hibernate:hibernate-validator。该命令可以在IDEA执行卡顿的情况下，或者需要下载的依赖包久久都没有反应。可以使用此种方法下载具体的包。其他命令如dependency:tree可以查看具体包的多个依赖，从而排除冲突的jar包。 3. wc(word count) 命令 Linux的wc(word count)命令可以有效统计文本文件的大小，行数等；参考：https://alvinalexander.com/unix/edu/examples/wc.shtml 4. awk文本处理工具 Linux的awk是一个处理文本的强大工具；可以对文本文件执行各种操作。 5. Http 客户端工具：OkHttp OkHttp是一个有效的Http客户端，支持多个请求公用一个主机的socket，连接池减少请求时延，透明的gzip压缩了下载的大小，响应缓存完全避免网络重复请求等特点。github上的star达到28k，具体参考http://square.github.io/okhttp/； 6. HanLP 中文自然语言处理库HanLP是一个面向生产环境的自然语言处理工具包，能有效地对中文进行各种处理，包括句法分析、多种词法分析、中文分词、词性标注，命名实体识别、关键词提取，新词发现，短语提取，自动摘要，拼音简繁等。还支持自定义模型训练等。目前在github上有8k多的star，该项目由大快搜索主导并完全开源。参考 https://github.com/hankcs/HanLP。]]></content>
