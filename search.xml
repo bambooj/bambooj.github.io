@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Encrypt and decrypt files or folders]]></title>
+    <url>%2F2020%2F01%2F02%2FEncrypt-and-decrypt-files-or-folders%2F</url>
+    <content type="text"><![CDATA[一、对文件或文件夹加密解密1.1 使用zip对文件和文件夹进行加密for file: zip -e target.zip source.txt for dir : zip -re target.zip source 1.2 使用gpg只能对文件加密 加密： gpg -c source.txt # 生成文件 gpg source.txt.pgp 解密： gpg source.txt.pgp # 生成文件 source.txt -c 使用对称加密 可以使用非对称个加密 1.3 使用encfs对文件夹加密安装encfs sudo apt-get install encfs 加密visible文件夹 encfs ~/.encrypted ~/visible 把需要加密的文件放入visible文件夹 隐藏文件 fusermount -u ~/visible 重新查看文件 encfs ~/.encrypted ~/visible 这时候需要输入之前设置的密码 参考：https://help.ubuntu.com/community/FolderEncryption]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[VMVersionMismatchException解决方案]]></title>
     <url>%2F2019%2F12%2F11%2FVMVersionMismatchException%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
     <content type="text"><![CDATA[一、执行jmap -heap 报错在本机执行jmap -heap 时，报错，报错信息如下：1sun.jvm.hotspot.runtime.VMVersionMismatchException: Supported versions are 25.222-b10. Target VM is 25.161-b12 二、问题分析2.1 提示是支持的jvm版本(小版本)是 25.222-b10，目标版本是25.161-b122.2 大致可以确定为class文件编译的版本和执行的版本不一致三、检查和解决问题3.1 检查发现，本地存在两个jdk版本一个是openjdk，另一个是安装的oracle JDK，大版本均为1.8。所以在简单的使用java和javac时能正常运行。但是想使用bin下其他工具时，由于小版本不一致，可能就无法运行，如jmap可能就有问题了。 3.2 openjdkopenjdk是ubuntu下面默认安装的jdk版本，但是由于openjdk的一些限制(如没有javafx的支持)，所以又安装了Oracle的JDK。 使用update-alternatives工具对本地存在的多个jdk版本进行管理，随时切换。 3.3 检查java -version 和javac -version版本发现不一致。此时需要配置JAVA_HOME为OracleJDK的安装目录。可以在.bashrc中配置。 3.4 再次使用jmap时，发现还是报错此时执行whereis jmap，输出如下： 12hexin@hexin-OptiPlex-3046:~$ whereis jmapjmap: /usr/bin/jmap /usr/share/man/man1/jmap.1.gz bin下的jmap是一个链接，修改其链接即可。]]></content>
